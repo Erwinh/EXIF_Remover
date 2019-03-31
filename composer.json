@@ -1,0 +1,22 @@
+{
+    "name": "erwin/exif_remover",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Erwin",
+            "email": "erwin.hannaart@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+      "ext-gd": "*",
+      "ext-fileinfo": "*",
+      "ext-json": "*",
+      "ext-exif": "*",
+        "miljar/php-exif": "^0.6.4"
+    }
+}
